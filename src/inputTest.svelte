@@ -63,7 +63,7 @@
     border-bottom: solid 2px #25282c;
     max-width: 40vw;
     height: 20vh;
-    font-size: 20px;
+    font-size: 1.2rem;
   }
 </style>
 

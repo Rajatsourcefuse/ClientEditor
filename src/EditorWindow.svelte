@@ -38,7 +38,7 @@
 
       timer = setTimeout(() => {
         dataStore.updateSolution($currentTab.id, editor.getValue());
-      }, 100);
+      }, 500);
     };
   })();
 </script>
@@ -46,7 +46,7 @@
 <style>
   .editor {
     width: 100%;
-    font-size: 25px;
+    font-size: 1.4rem;
     border-bottom: solid 2px #25282c;
   }
 </style>

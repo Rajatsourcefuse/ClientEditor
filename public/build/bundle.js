@@ -25588,8 +25588,8 @@ background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgb
     		c: function create() {
     			div = element("div");
     			attr_dev(div, "id", "editor");
-    			attr_dev(div, "class", "editor flex-grow svelte-1r1dh23");
-    			add_location(div, file, 53, 0, 1404);
+    			attr_dev(div, "class", "editor flex-grow svelte-9invhd");
+    			add_location(div, file, 53, 0, 1406);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -25656,7 +25656,7 @@ background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgb
     				() => {
     					dataStore.updateSolution($currentTab.id, editor.getValue());
     				},
-    				100
+    				500
     			);
     		};
     	})();
@@ -25704,9 +25704,9 @@ background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgb
     			div1 = element("div");
     			t1 = text(/*inputstatus*/ ctx[0]);
     			attr_dev(div0, "id", "inputEditor");
-    			attr_dev(div0, "class", "editor flex-grow svelte-1xh3big");
-    			add_location(div0, file$1, 69, 0, 1796);
-    			add_location(div1, file$1, 70, 0, 1867);
+    			attr_dev(div0, "class", "editor flex-grow svelte-15jd4d1");
+    			add_location(div0, file$1, 69, 0, 1798);
+    			add_location(div1, file$1, 70, 0, 1869);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -25846,9 +25846,9 @@ background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgb
     			div1 = element("div");
     			t1 = text(/*outputstatus*/ ctx[0]);
     			attr_dev(div0, "id", "outputEditor");
-    			attr_dev(div0, "class", "editor flex-grow svelte-1xh3big");
-    			add_location(div0, file$2, 60, 0, 1732);
-    			add_location(div1, file$2, 61, 0, 1804);
+    			attr_dev(div0, "class", "editor flex-grow svelte-15jd4d1");
+    			add_location(div0, file$2, 60, 0, 1734);
+    			add_location(div1, file$2, 61, 0, 1806);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -26013,27 +26013,27 @@ background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgb
     			t8 = space();
     			button = element("button");
     			button.textContent = "Save";
-    			attr_dev(h1, "class", "text-2xl mb-4 problemTitle svelte-q8fhbt");
-    			add_location(h1, file$3, 62, 2, 1134);
+    			attr_dev(h1, "class", "text-2xl mb-4 problemTitle svelte-k32fq8");
+    			add_location(h1, file$3, 59, 2, 1097);
     			attr_dev(input, "type", "text");
     			attr_dev(input, "placeholder", "Enter Problem Here");
-    			attr_dev(input, "class", "bg-gray-200 appearance-none border-2 border-gray-200 rounded py-2\n    px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white\n    focus:border-purple-500 mb-4 svelte-q8fhbt");
+    			attr_dev(input, "class", "bg-gray-200 appearance-none border-2 border-gray-200 rounded py-2\n    px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white\n    focus:border-purple-500 mb-4 svelte-k32fq8");
     			input.value = input_value_value = /*$currentTab*/ ctx[1].problem;
-    			add_location(input, file$3, 64, 2, 1204);
-    			attr_dev(label0, "class", "textLabel svelte-q8fhbt");
-    			add_location(label0, file$3, 77, 6, 1667);
-    			attr_dev(div0, "class", "inputDiv flex-1 svelte-q8fhbt");
-    			add_location(div0, file$3, 76, 4, 1631);
-    			attr_dev(label1, "class", "textLabel svelte-q8fhbt");
-    			add_location(label1, file$3, 82, 6, 1794);
-    			attr_dev(div1, "class", "inputDiv flex-1 svelte-q8fhbt");
-    			add_location(div1, file$3, 81, 4, 1758);
-    			attr_dev(div2, "class", "flex svelte-q8fhbt");
-    			add_location(div2, file$3, 75, 2, 1608);
-    			attr_dev(button, "class", "saveButton svelte-q8fhbt");
-    			add_location(button, file$3, 86, 2, 1888);
-    			attr_dev(div3, "class", "flex flex-col addProblem svelte-q8fhbt");
-    			add_location(div3, file$3, 61, 0, 1093);
+    			add_location(input, file$3, 61, 2, 1167);
+    			attr_dev(label0, "class", "textLabel svelte-k32fq8");
+    			add_location(label0, file$3, 74, 6, 1630);
+    			attr_dev(div0, "class", "inputDiv flex-1 svelte-k32fq8");
+    			add_location(div0, file$3, 73, 4, 1594);
+    			attr_dev(label1, "class", "textLabel svelte-k32fq8");
+    			add_location(label1, file$3, 79, 6, 1757);
+    			attr_dev(div1, "class", "inputDiv flex-1 svelte-k32fq8");
+    			add_location(div1, file$3, 78, 4, 1721);
+    			attr_dev(div2, "class", "flex svelte-k32fq8");
+    			add_location(div2, file$3, 72, 2, 1571);
+    			attr_dev(button, "class", "saveButton svelte-k32fq8");
+    			add_location(button, file$3, 83, 2, 1851);
+    			attr_dev(div3, "class", "flex flex-col addProblem svelte-k32fq8");
+    			add_location(div3, file$3, 58, 0, 1056);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -26149,7 +26149,7 @@ background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgb
     /* src/EditorArea.svelte generated by Svelte v3.18.1 */
     const file$4 = "src/EditorArea.svelte";
 
-    // (87:2) {:else}
+    // (94:2) {:else}
     function create_else_block(ctx) {
     	let h1;
     	let t_value = /*$currentTab*/ ctx[4].problem + "";
@@ -26159,8 +26159,8 @@ background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgb
     		c: function create() {
     			h1 = element("h1");
     			t = text(t_value);
-    			attr_dev(h1, "class", "question px-3 py-3 svelte-nuhzx1");
-    			add_location(h1, file$4, 87, 4, 1890);
+    			attr_dev(h1, "class", "question px-3 py-3 svelte-o9pd4q");
+    			add_location(h1, file$4, 94, 4, 1996);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -26180,14 +26180,14 @@ background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgb
     		block,
     		id: create_else_block.name,
     		type: "else",
-    		source: "(87:2) {:else}",
+    		source: "(94:2) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (85:2) {#if $currentTab.changeData}
+    // (92:2) {#if $currentTab.changeData}
     function create_if_block(ctx) {
     	let current;
     	const newproblem = new NewProblem({ $$inline: true });
@@ -26219,7 +26219,7 @@ background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgb
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(85:2) {#if $currentTab.changeData}",
+    		source: "(92:2) {#if $currentTab.changeData}",
     		ctx
     	});
 
@@ -26283,21 +26283,21 @@ background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgb
     			attr_dev(div0, "class", "w-full bg-gray-800 cursor-move text-bg-600 flex justify-center\n    text-3xl h-3");
     			set_style(div0, "line-height", "1px");
     			set_style(div0, "cursor", "ns-resize");
-    			add_location(div0, file$4, 90, 2, 1977);
-    			attr_dev(button, "class", "runButton svelte-nuhzx1");
-    			add_location(button, file$4, 98, 4, 2248);
-    			attr_dev(h2, "class", "text-3xl text-center");
-    			add_location(h2, file$4, 99, 4, 2319);
-    			attr_dev(div1, "class", "flex-1 text-gray-700 text-center px-4 py-2 outputValue");
-    			add_location(div1, file$4, 100, 4, 2368);
-    			attr_dev(div2, "class", "flex-1 text-gray-700 text-center px-4 py-2 outputValue");
-    			add_location(div2, file$4, 103, 4, 2471);
-    			attr_dev(div3, "class", "output svelte-nuhzx1");
+    			add_location(div0, file$4, 97, 2, 2083);
+    			attr_dev(button, "class", "runButton svelte-o9pd4q");
+    			add_location(button, file$4, 105, 4, 2354);
+    			attr_dev(h2, "class", "text-3xl text-center title svelte-o9pd4q");
+    			add_location(h2, file$4, 106, 4, 2425);
+    			attr_dev(div1, "class", "flex-1 text-gray-700 text-center px-4 py-2 outputValue svelte-o9pd4q");
+    			add_location(div1, file$4, 107, 4, 2480);
+    			attr_dev(div2, "class", "flex-1 text-gray-700 text-center px-4 py-2 outputValue svelte-o9pd4q");
+    			add_location(div2, file$4, 110, 4, 2583);
+    			attr_dev(div3, "class", "output svelte-o9pd4q");
     			attr_dev(div3, "id", "outputid");
     			set_style(div3, "height", /*height*/ ctx[3]);
-    			add_location(div3, file$4, 97, 2, 2185);
-    			attr_dev(div4, "class", "mainDiv flex flex-col svelte-nuhzx1");
-    			add_location(div4, file$4, 74, 0, 1580);
+    			add_location(div3, file$4, 104, 2, 2291);
+    			attr_dev(div4, "class", "mainDiv flex flex-col svelte-o9pd4q");
+    			add_location(div4, file$4, 81, 0, 1686);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -26528,14 +26528,14 @@ background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgb
     			t2 = space();
     			button = element("button");
     			button.textContent = "x";
-    			attr_dev(li, "class", "tab flex-grow svelte-1a4yqkg");
+    			attr_dev(li, "class", "tab flex-grow svelte-6467hc");
     			toggle_class(li, "active", /*tab*/ ctx[4].active);
-    			add_location(li, file$5, 69, 6, 1262);
-    			attr_dev(button, "class", "closeButton svelte-1a4yqkg");
+    			add_location(li, file$5, 69, 6, 1269);
+    			attr_dev(button, "class", "closeButton svelte-6467hc");
     			toggle_class(button, "closeButtonActive", /*tab*/ ctx[4].active);
-    			add_location(button, file$5, 75, 6, 1426);
-    			attr_dev(div, "class", "flex-grow flex parentDiv svelte-1a4yqkg");
-    			add_location(div, file$5, 68, 4, 1217);
+    			add_location(button, file$5, 75, 6, 1433);
+    			attr_dev(div, "class", "flex-grow flex parentDiv svelte-6467hc");
+    			add_location(div, file$5, 68, 4, 1224);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -26602,10 +26602,10 @@ background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgb
     			t0 = space();
     			button = element("button");
     			button.textContent = "+";
-    			attr_dev(button, "class", "addButton svelte-1a4yqkg");
-    			add_location(button, file$5, 98, 2, 2045);
-    			attr_dev(ul, "class", "tabs flex svelte-1a4yqkg");
-    			add_location(ul, file$5, 66, 0, 1155);
+    			attr_dev(button, "class", "addButton svelte-6467hc");
+    			add_location(button, file$5, 98, 2, 2052);
+    			attr_dev(ul, "class", "tabs flex svelte-6467hc");
+    			add_location(ul, file$5, 66, 0, 1162);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");

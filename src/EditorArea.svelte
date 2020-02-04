@@ -39,15 +39,19 @@
     background-color: #1d1f21;
     color: white;
     min-height: 30vh;
+    font-size: 2rem;
   }
   .question {
     border-left: solid 46px #25282c;
     color: white;
     background-color: #1d1f21;
-    font-size: 20px;
+    font-size: 1.4rem;
   }
   .mainDiv {
     height: 94.1%;
+  }
+  .title{
+    font-size: 1.5rem;
   }
 
   .runButton {
@@ -55,12 +59,15 @@
     margin-left: 90%;
     margin-top: 2vh;
     outline: none;
-    font-size: 2vh;
+    font-size: 1.4rem;
   }
   .runButton:active{
     outline: none;  
     border: white;
     background: #1d1f21;
+  }
+  .outputValue{
+    font-size: 1.2rem;
   }
 </style>
 
@@ -97,7 +104,7 @@
     }} />
   <div class="output" id="outputid" style="height:{height}">
     <button class="runButton" on:click={()=>runHandler()}>Run</button>
-    <h2 class="text-3xl text-center">Output</h2>
+    <h2 class="text-3xl text-center title">Output</h2>
     <div class="flex-1 text-gray-700 text-center px-4 py-2 outputValue">
       {outputData}
     </div>

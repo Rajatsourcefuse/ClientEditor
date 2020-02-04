@@ -23,7 +23,7 @@
   }
   .textLabel {
     color: white;
-    font-size: 2vh;
+    font-size: 1.5rem;
   }
   ::-webkit-scrollbar {
     width: 20px;
@@ -38,19 +38,16 @@
     max-width: 50vw;
     overflow-x: auto;
   }
-  .inputDiv {
-  }
   .inputWindow {
     width: 50vw;
     height: 30vh;
-    font-size: 1vh;
+    font-size: 2rem;
   }
   .saveButton {
-    padding: 0 2vw 0 2vw;
     margin-left: 90%;
     margin-top: 2vh;
     outline: none;
-    font-size: 2vh;
+    font-size: 1.2rem;
   }
   .saveButton:active {
     outline: none;

@@ -8,24 +8,24 @@
     border-left: solid 46px #25282c;
   }
   .tab {
-    padding: 1vh;
+    padding: 1rem;
     background: #25282c;
     box-sizing: border-box;
-    font-size: 20px;
+    font-size: 1.2rem;
     text-align: center;
     font-weight: 200%;
     color: gray;
   }
   .active {
-    padding: 1vh;
+    padding: 1rem;
     background: #1d1f21;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 1.2rem;
     text-align: center;
     color: white;
   }
   .closeButton {
-    padding-right: 2vh;
+    padding-right: 1rem;
     color: white;
     background: #25282c;
     border: none;
